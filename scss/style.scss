@@ -19,31 +19,12 @@ li a{
     text-decoration: none;
 }
 
-.titulo-prinicipal{
+.titulo-principal{
     color: rgb(55, 236, 10);
 }
 
 .titulos{
     color: rgb(55, 236, 10);
-}
-
-.logo{
-    animation: movimiento infinite 10s;
-}
-
-@keyframes movimiento {
-    0%{
-        transform: scale(0.9);
-    }
-    25% {
-        transform: scale(1);
-    }
-    50% {
-        transform: scale(0.9);
-    }
-    100% {
-        transform: scale(1);
-    }
 }
 
 li a::after{
@@ -92,6 +73,7 @@ li a:hover::after{
     padding-top: 20px;
 }
 
+@import "./temporadas.scss"
 
 
 
