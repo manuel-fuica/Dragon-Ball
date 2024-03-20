@@ -19,6 +19,34 @@ main, footer {
   list-style: none;
 }
 
+.menu .submenu {
+  display: none;
+}
+
+.submenu {
+  position: absolute;
+  background: #242524;
+  width: 60%;
+  display: none;
+  border-radius: 10px;
+  padding: 0;
+}
+
+.sub-item:hover {
+  background: rgb(29, 139, 29);
+}
+
+.submenu li a {
+  display: block;
+  padding: 15px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.menu li:hover .submenu {
+  display: block;
+}
+
 li a {
   color: rgb(55, 236, 10);
   text-decoration: none;
@@ -32,7 +60,7 @@ li a {
   color: rgb(55, 236, 10);
 }
 
-li a::after {
+.link::after {
   content: "";
   width: 0;
   height: 3px;
@@ -41,7 +69,7 @@ li a::after {
   display: block;
 }
 
-li a:hover::after {
+.link:hover::after {
   width: 50%;
   transition: width 0.3s linear;
   border-radius: 2px;
