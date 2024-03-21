@@ -8,7 +8,10 @@ body {
   grid-template-rows: repeat(3, 1fr);
   gap: 1rem;
   margin: 2rem 1rem;
-  height: 1100px;
+}
+
+.container {
+  max-width: 100% !important;
 }
 
 .contenedor-imagenes div img {
@@ -20,7 +23,6 @@ body {
 .img-uno {
   grid-column: span 5;
   grid-row: span 1;
-  height: 224px;
 }
 
 .img-tres {
@@ -40,17 +42,14 @@ body {
 
 .img-ocho {
   grid-column: span 2;
-  height: 30vh;
 }
 
 .img-nueve {
-  grid-column: span 1;
-  height: 30vh;
+  grid-column: span 2;
 }
 
 .img-diez {
-  grid-column: span 2;
-  height: 30vh;
+  grid-column: span 1;
 }
 
 .contenedor-img-freezer {
