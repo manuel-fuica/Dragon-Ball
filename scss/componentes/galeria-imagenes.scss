@@ -2,19 +2,21 @@
 body{
     background-color: #0D0B0C;
 }
+
+.menu{
+    padding-right: 80px;
+}
 .contenedor-imagenes{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     gap: 1rem;
     margin: 2rem 1rem;
-    // height: 1200px;
+    height: 100%;
 }
 
 .container{
     max-width: 100% !important;
-    // margin: 0 !important;
-    
 }
 
 .contenedor-imagenes div {
@@ -29,7 +31,6 @@ body{
 .img-uno{
     grid-column: span 5;
     grid-row: span 1;  
-    // height: 224px; 
 }
 
 
@@ -49,28 +50,23 @@ body{
     
 }
 
-.img-ocho{
-    grid-column: span 2;
-    
-}
-
 .img-nueve{
-    grid-column: span 2;
+    grid-column: span 3;
     
 }
 
 .img-diez{
-    grid-column: span 1;
+    grid-column: span 2;
     
 }
 
 .contenedor-img-freezer{
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     gap: 1rem;
     margin: 2rem 1rem;
-    height: 1400px;
+    height: 100%;
 }
 
 .contenedor-img-freezer div{
@@ -92,21 +88,21 @@ body{
     
 }
 
-.img-freezer-ocho{
+.img-freezer-ocho, .img-freezer-diez{
     grid-column: span 2;
 }
 
-.img-freezer-nueve, .img-freezer-diez{
-    grid-column: span 3;
+.img-freezer-nueve{
+    grid-column: span 4;
 }
 
 .contenedor-img-cell{
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     gap: 1rem;
     margin: 2rem 1rem;
-    height: 1250px;
+    height: 100%;
 }
 
 .contenedor-img-cell div{
@@ -132,10 +128,10 @@ body{
 .contenedor-img-buu{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     gap: 1rem;
     margin: 2rem 1rem;
-    height: 1200px;
+    height: 100%;
 }
 
 .contenedor-img-buu div{
@@ -146,7 +142,7 @@ body{
     }
 }
 
-.img-buu-dos {
+.img-buu-dos, .img-buu-diez {
     grid-column: span 2;
 }
 
@@ -157,10 +153,10 @@ body{
 .contenedor-img-super{
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     gap: 1rem;
     margin: 2rem 1rem;
-    height: 1900px;
+    height: 100%;
 }
 
 .contenedor-img-super div{
@@ -182,3 +178,4 @@ body{
 .img-super-seis{
     grid-column: span 3;
 }
+
