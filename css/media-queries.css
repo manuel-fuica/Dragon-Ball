@@ -1,0 +1,16 @@
+@media screen and (max-width: 720px) {
+  .imagen-principal-index img {
+    display: none;
+  }
+  .submenu {
+    display: none;
+  }
+  .has-submenu:hover .submenu {
+    display: block;
+  }
+  .seccion-cuadros div div div img {
+    display: block;
+  }
+}
+
+/*# sourceMappingURL=media-queries.css.map */
