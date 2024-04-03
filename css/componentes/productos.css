@@ -9,10 +9,13 @@
 }
 
 button {
-  background-color: #3FAE2A;
+  background-color: rgb(55, 236, 10);
   width: 190px;
   height: 35px;
   color: rgb(41, 30, 30);
+  border: none;
+  border-radius: 10px !important;
+  margin-bottom: 20px !important;
 }
 
 /*# sourceMappingURL=productos.css.map */

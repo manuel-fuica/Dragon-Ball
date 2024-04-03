@@ -103,6 +103,32 @@ li a {
   padding-top: 20px;
 }
 
+#menu-toggle {
+  display: none;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.menu-line {
+  width: 25px;
+  height: 3px;
+  background-color: #333;
+  margin: 5px 0;
+}
+
+.menu-line {
+  width: 25px;
+  height: 3px;
+  background-color: #333;
+  margin: 5px 0;
+}
+
+#navbar {
+  display: none;
+}
+
 .img-t2, .img-t3, .img-t4, .img-t5 {
   width: 100%;
 }
@@ -281,10 +307,13 @@ body {
 }
 
 button {
-  background-color: #3FAE2A;
+  background-color: rgb(55, 236, 10);
   width: 190px;
   height: 35px;
   color: rgb(41, 30, 30);
+  border: none;
+  border-radius: 10px !important;
+  margin-bottom: 20px !important;
 }
 
 @media screen and (max-width: 720px) {
@@ -299,6 +328,14 @@ button {
   }
   .seccion-cuadros div div div img {
     display: block;
+  }
+}
+@media only screen and (min-width: 720px) {
+  #navbar {
+    display: block;
+  }
+  #menu-toggle {
+    display: none;
   }
 }
 

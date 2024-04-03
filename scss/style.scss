@@ -107,6 +107,35 @@ li a{
     padding-top: 20px;
 }
 
+#menu-toggle {
+    display: none;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.menu-line {
+    width: 25px;
+    height: 3px;
+    background-color: #333;
+    margin: 5px 0;
+}
+
+.menu-line {
+    width: 25px;
+    height: 3px;
+    background-color: #333;
+    margin: 5px 0;
+}
+
+#navbar {
+    display: none;
+}
+
+
+
+
 @import "./componentes/temporadas.scss";
 
 @import "./componentes/galeria-imagenes.scss";
