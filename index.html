@@ -13,15 +13,10 @@
 </head>
 <body class="body">
     <header id="header" class="d-flex align-items-center">
-        <div class="container d-flex justify-content-between align-items-center">
+        <div class="container div-logo-btn">
             <div class="logo">
                 <img src="./Imagenes/logo.jpg" class="logo" alt="imagen del logo">
             </div>
-            <button id="menu-toggle">
-                <div class="menu-line"></div>
-                <div class="menu-line"></div>
-                <div class="menu-line"></div>
-            </button>
             <nav id="navbar" class="navbar">
                 <ul class="menu">
                     <li  class="list-item"><a href="./index.html" class="link">INICIO</a></li>
@@ -39,6 +34,13 @@
                     <li class="list-item"><a href="./paginas/productos.html" class="link">PRODUCTOS</a></li>
                 </ul>
             </nav>
+            <button id="menu-toggle" class="boton">
+                <span class="menu-toggle">
+                    <svg  class="svg-menu" xmlns="http://www.w3.org/2000/svg" width="16" height="40" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+                    </svg>
+                </span>
+            </button>
         </div>
     </header>
     <main id="main">
@@ -63,28 +65,28 @@
                     <section class="peliculas container">
                             <div class="bloque-uno row pb-5">
                                 <div class="col-xl-3 contenedor-img col-sm-6">
-                                    <img src="./Imagenes/peliculas/pelicula-uno.jpg"  alt="imagen pelicula el ultimo combate">
+                                    <img src="./Imagenes/peliculas/pelicula-uno.jpg"  alt="imagen pelicula el ultimo combate" class="pelicula">
                                     <div class="descripcion">
                                         <span class="">El ultimo combate | 1990</span>
                                         <p>Bardock, un guerrero Saiyajin de clase baja se enfrenta al emperador del universo freezer, quien amenaza con destruir a toda la raza saiyajin.</p>
                                     </div>
                                 </div>
                                 <div class="col-xl-3 contenedor-img col-sm-6">
-                                    <img src="./Imagenes/peliculas/pelicula-goku.jpg" alt="imagen pelicula los mejores rivales">
+                                    <img src="./Imagenes/peliculas/pelicula-goku.jpg" alt="imagen pelicula los mejores rivales" class="pelicula">
                                     <div class="descripcion">
                                         <span>Los mejores rivales | 1991</span>
                                         <p>Cooler, hermano de freezer decide enfrentarse al super saiyajin que derroto a su hermano e inicia un viaje a la tierra para destruirlo.</p>
                                     </div>
                                 </div>
                                 <div class="col-xl-3 contenedor-img col-sm-6" >
-                                    <img src="./Imagenes/peliculas/pelicula-tres.jpg" alt="imagen pelicula guerreros de fuerza ilimitada">
+                                    <img src="./Imagenes/peliculas/pelicula-tres.jpg" alt="imagen pelicula guerreros de fuerza ilimitada" class="pelicula">
                                     <div class="descripcion">
                                         <span>Guerreros de fuerza ilimitada  | 1992</span>
                                         <p>Cooler se fusiona con una estrella que le da super poderes e intenta acabar con goku y sus amigos.</p>
                                     </div>
                                 </div>
                                 <div class="col-xl-3 contenedor-img col-sm-6" >
-                                    <img src="./Imagenes/peliculas/pelicula-cuatro.jpg" alt="imagen pelicula los tres super saiyajin ">
+                                    <img src="./Imagenes/peliculas/pelicula-cuatro.jpg" alt="imagen pelicula los tres super saiyajin " class="pelicula">
                                     <div class="descripcion">
                                         <span>Los tres super saiyajin | 1992</span>
                                         <p>Tres androides creados por el doctor gero, buscan a goku para eliminarlo, se enfrentan a goku y sus amigos en una epica batalla.</p>
@@ -94,28 +96,28 @@
                             <div class="container">
                                 <div class="bloque-dos row pb-5">
                                     <div class="col-xl-3 contenedor-img col-sm-6">
-                                        <img src="./Imagenes/peliculas/pelicula-cinco.jpg" alt="imagen pelicula estalla el duelo">
+                                        <img src="./Imagenes/peliculas/pelicula-cinco.jpg" alt="imagen pelicula estalla el duelo" class="pelicula">
                                         <div class="descripcion">
                                             <span>Estalla el duelo | 1993</span>
                                             <p>Goku y sus amigos se enfrentan a un super guerrero llamado Broly, un suer saiyajin legendario y extremadamente poderoso</p>
                                         </div>
                                     </div>
                                     <div class="col-xl-3 contenedor-img col-sm-6">
-                                        <img src="./Imagenes/peliculas/pelicula-seis.jpg"  alt="imagen pelicula Los guerreros de plata">
+                                        <img src="./Imagenes/peliculas/pelicula-seis.jpg"  alt="imagen pelicula Los guerreros de plata" class="pelicula">
                                         <div class="descripcion">
                                             <span>Los guerreros de plata | 1993</span>
                                             <p>Se organiza un nuevo torneo donde se presentan unos peligrosos enemigos. quienes pretenden eliminar a la tierra</p>
                                         </div>
                                     </div>
                                     <div class="col-xl-3 contenedor-img col-sm-6">
-                                        <img src="./Imagenes/peliculas/pelicula-siete.jpg"  alt="imagen pelicula El regreso de Broly">
+                                        <img src="./Imagenes/peliculas/pelicula-siete.jpg"  alt="imagen pelicula El regreso de Broly" class="pelicula">
                                         <div class="descripcion">
                                             <span>El regreso de Broly | 1994</span>
                                             <p>El legendario Broly esta de regreso para intentar acabar con goku y sus amigos</p>
                                         </div>
                                     </div>
                                     <div class="col-xl-3 contenedor-img col-sm-6">
-                                        <img src="./Imagenes/peliculas/pelicula-ocho.jpg"  alt="imagen pelicula El combate definitivo">
+                                        <img src="./Imagenes/peliculas/pelicula-ocho.jpg"  alt="imagen pelicula El combate definitivo" class="pelicula">
                                         <div class="descripcion">
                                             <span>El combate definitivo | 1994</span>
                                             <P>Broly es revivido y se transforma en un monstruo superpoderoso que se enfrenta a gohan, goten y trunks</P>
@@ -126,28 +128,28 @@
                             <div class="container">
                                 <div class="bloque-tres row pb-5">
                                     <div class="col-xl-3 contenedor-img col-sm-6">
-                                        <img src="./Imagenes/peliculas/pelicula-nueve.jpg" alt="imagen pelicula El ataque del dragón ">
+                                        <img src="./Imagenes/peliculas/pelicula-nueve.jpg" alt="imagen pelicula El ataque del dragón " class="pelicula">
                                         <div class="descripcion">
                                             <span>El ataque del dragon | 1995</span>
                                             <p>Goku se une a Gohan, Vegeta, Gotenks y Tapion para enfrentar a un nuevo monstruo que aparece en el planeta para destruirlo todo.</p>
                                         </div>
                                     </div>
                                     <div class="col-xl-3 contenedor-img col-sm-6">
-                                        <img src="./Imagenes/peliculas/pelicula-diez.jpg" alt="imagen pelicula la batalla de los dioses">
+                                        <img src="./Imagenes/peliculas/pelicula-diez.jpg" alt="imagen pelicula la batalla de los dioses" class="pelicula">
                                         <div class="descripcion">
                                             <span>La batalla de los dioses | 2013</span>
                                             <p>Aparece un dios de la destruccion quien amenaza con destruirlo todo, goku lo enfrenta en una epica batalla.</p>
                                         </div>
                                     </div>
                                     <div class="col-xl-3 contenedor-img col-sm-6">
-                                        <img src="./Imagenes/peliculas/pelicula-once.jpg" alt="imagen pelicula la resurreccion de freezer">
+                                        <img src="./Imagenes/peliculas/pelicula-once.jpg" alt="imagen pelicula la resurreccion de freezer" class="pelicula">
                                         <div class="descripcion">
                                             <span>La resurreccion de freezer | 2015</span>
                                             <p>Freezer es revivido y pretende vengarse de goku, lleva años entrenando y tiene una nueva transformacion para mostrar.</p>
                                         </div>
                                     </div>
                                     <div class="col-xl-3 contenedor-img col-sm-6">
-                                        <img src="./Imagenes/peliculas/pelicula-doce.jpg" alt="imagen pelicula dragon ball super broly">
+                                        <img src="./Imagenes/peliculas/pelicula-doce.jpg" alt="imagen pelicula dragon ball super broly" class="pelicula">
                                         <div class="descripcion">
                                             <span>Dragon Ball Super: Broly | 2018</span>
                                             <p>Esta remasterizacion de Broly, nos cuenta la historia del super saiyajin legendario.</p>

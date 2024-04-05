@@ -107,12 +107,25 @@ li a{
     padding-top: 20px;
 }
 
+.div-logo-btn{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.div-logo-btn, .boton{
+    margin: 5px;
+}
+
 #menu-toggle {
-    display: none;
-    background-color: transparent;
-    border: none;
+    display: flex;
+    background-color: #0D0B0C;
     cursor: pointer;
-    padding: 10px;
+    border: solid rgb(55, 236, 10);
+}
+
+.menu-toggle svg{
+    width: 2rem;
 }
 
 .menu-line {
@@ -129,9 +142,9 @@ li a{
     margin: 5px 0;
 }
 
-#navbar {
-    display: none;
-}
+
+
+
 
 
 
