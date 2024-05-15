@@ -133,7 +133,18 @@ li a{
     display: none;
 }
 
-
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 35px;
+    border: none;
+    outline: none;
+    color: rgb(55, 236, 10);
+    cursor: pointer;
+    }
 
 
 @import "./componentes/temporadas.scss";
